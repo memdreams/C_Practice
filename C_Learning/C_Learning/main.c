@@ -7,9 +7,10 @@
 //
 
 #include <stdio.h>
+#include "basic_function.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    isBigEndian();
     return 0;
 }

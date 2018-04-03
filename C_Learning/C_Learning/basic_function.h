@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void isBigEndian(void);
+
 #endif /* basic_function_h */
