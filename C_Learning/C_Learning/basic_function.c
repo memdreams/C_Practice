@@ -18,8 +18,30 @@ void isBigEndian() // Method 1
     else{
         printf("Little Endian!\n");
     }
-            
 }
+
+void isBigEndian_union()  //by using union's property
+{
+    union temp
+    {
+        short int a;
+        char b;
+    }temp;
+    temp.a = 0x1234;
+    if (temp.b == 0x12){
+        printf("BigEndian!\n");
+    } else {
+        printf("Little Endian!\n");
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
